@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio DevElite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Portfólio DevElite</h1>
+    <nav class="botoes">
+      <a href="paginaPrincipal\index.html" class="menu-botao">Menu</a>
+      <a href="#sobre" class="menu-botao">Sobre</a>
+      <a href="#projetos" class="menu-botao">Projetos</a>
+      <a href="#contato" class="menu-botao">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <div class="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Desenvolvedor Backend | Java | JavaScript | HTML | PostgreSQL</p>
+      <p>Desenvolvedor backend com experiência em Java, JavaScript, HTML e PostgreSQL...</p>
+    </div>
+    <div class="foto">
+      <img src="imagens/eu.jpeg" alt="Minha Foto">
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="projeto">
+      <h3>Projeto 1</h3>
+      <img src="imagens/projeto1.jpg" height="500" alt="Projeto 1">
+      <p>Nosso projeto de TCC foi o desenvolvimento de um e-commerce completo...</p>
+    </div>
+    <div class="projeto">
+      <h3>Projeto 2</h3>
+      <img src="imagens/projeto2.jpg" height="500" alt="Projeto 2">
+      <p>Criei um site simples para a empresa onde trabalho, no comércio de ferragens...</p>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="formContato">
+      <input type="text" id="nome" placeholder="Seu Nome" required>
+      <input type="email" id="email" placeholder="Seu Email" required>
+      <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> - DevElite</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/caiquecarnauba/">LinkedIn</a>
+      <a href="https://github.com/DarkCookie100">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
